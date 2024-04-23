@@ -19,6 +19,17 @@
 //import androidx.compose.ui.window.application
 //import androidx.compose.ui.window.rememberWindowState
 //
+//
+//@Composable
+//@Preview
+//fun Ejemplos(color: Color,fraccion:Float){
+//    Box(
+//        modifier = Modifier.background(color).fillMaxHeight(fraccion)
+//    ){
+//        Text("Ejemplo 1")
+//    }
+//}
+//
 //@Composable
 //@Preview
 //fun MainScreen() {
@@ -27,38 +38,22 @@
 //        modifier = Modifier.fillMaxSize()
 //    ) {
 //        Column(
-//            horizontalAlignment = Alignment.CenterHorizontally
+//            horizontalAlignment = Alignment.CenterHorizontally,
+//            verticalArrangement = Arrangement.Center,
+//            modifier = Modifier.fillMaxHeight()
 //        ) {
 //
-//            Surface(
-//                color = Color.Green,
-//                modifier = Modifier.height(80.dp).width(60.dp),
+//            Ejemplos(Color.Red,0.2f)
+//            Ejemplos(Color.Gray,0.4f)
+//            Ejemplos(Color.Cyan,0.6f)
+//            Ejemplos(Color.Green,1f)
 //
-//            ) {
-//                Text("Layout 1")
-//            }
-//            Surface(
-//                color = Color.Gray,
-//                modifier = Modifier.height(300.dp).width(60.dp)
-//            ) {
-//                Text("Layout 2")
-//            }
-//            Surface(
-//                color = Color.Green,
-//                modifier = Modifier.height(300.dp).width(60.dp),
-//
-//                ) {
-//                Text("Layout 3")
-//            }
-//            Surface(
-//                color = Color.Gray,
-//                modifier = Modifier.height(80.dp).width(60.dp)
-//            ) {
-//                Text("Layout 4")
-//            }
 //        }
 //    }
 //}
+//
+//// Rehecho por lo de ivan , este tio va loco
+//
 //fun main() = application {
 //
 //    val windowState = rememberWindowState(size = DpSize(1200.dp,800.dp))

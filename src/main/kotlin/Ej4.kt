@@ -24,65 +24,51 @@
 //@Composable
 //@Preview
 //fun MainScreen() {
-//    Surface(
-//        color = Color.LightGray,
+//    Row(
+//        verticalAlignment = Alignment.Bottom,
+//        horizontalArrangement = Arrangement.SpaceEvenly,
 //        modifier = Modifier.fillMaxSize()
-//    ) {
-//        Row(
-//            verticalAlignment = Alignment.Bottom
+//    ){
+//
+//        Box(
+//            modifier = Modifier.wrapContentSize().border(
+//                width = 3.dp,
+//                color = Color.Red
+//            ).height(300.dp).padding(10.dp)
 //        ){
-//
-//            Spacer(modifier = Modifier.width(16.dp))
-//
-//            Surface(
-//                color = Color.LightGray,
-//                modifier = Modifier.wrapContentSize().border(
-//                    width = 3.dp,
-//                    color = Color.Red
-//                ).height(300.dp).padding(10.dp)
-//            ){
-//                Text("ejemplo 1")
-//            }
-//
-//            Spacer(modifier = Modifier.width(16.dp))
-//
-//            Surface(
-//                color = Color.LightGray,
-//                modifier = Modifier.wrapContentSize().border(
-//                    width = 3.dp,
-//                    color = Color.Blue
-//                ).height(200.dp).padding(10.dp)
-//            ){
-//                Text("ejemplo 2")
-//            }
-//
-//            Spacer(modifier = Modifier.width(16.dp))
-//
-//            Surface(
-//                color = Color.LightGray,
-//                modifier = Modifier.wrapContentSize().border(
-//                    width = 3.dp,
-//                    color = Color.Red
-//                ).height(100.dp).padding(10.dp)
-//            ){
-//                Text("ejemplo 3")
-//            }
-//
-//            Spacer(modifier = Modifier.width(16.dp))
-//
-//            Surface(
-//                color = Color.LightGray,
-//                modifier = Modifier.wrapContentSize().border(
-//                    width = 3.dp,
-//                    color = Color.Blue
-//                ).padding(10.dp)
-//            ){
-//                Text("ejemplo 4")
-//            }
-//
+//            Text("ejemplo 1")
 //        }
+//
+//        Box(
+//            modifier = Modifier.wrapContentSize().border(
+//                width = 3.dp,
+//                color = Color.Blue
+//            ).height(200.dp).padding(10.dp)
+//        ){
+//            Text("ejemplo 2")
+//        }
+//
+//        Box(
+//            modifier = Modifier.wrapContentSize().border(
+//                width = 3.dp,
+//                color = Color.Red
+//            ).height(100.dp).padding(10.dp)
+//        ){
+//            Text("ejemplo 3")
+//        }
+//
+//        Box(
+//            modifier = Modifier.wrapContentSize().border(
+//                width = 3.dp,
+//                color = Color.Blue
+//            ).padding(10.dp)
+//        ){
+//            Text("ejemplo 4")
+//        }
+//
 //    }
 //}
+//
 //
 //fun main() = application {
 //
