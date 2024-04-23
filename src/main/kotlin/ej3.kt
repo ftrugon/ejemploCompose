@@ -22,22 +22,43 @@
 //@Composable
 //@Preview
 //fun MainScreen() {
-//    Box(
-//        modifier = Modifier.fillMaxSize(),
+//    Surface(
+//        color = Color.LightGray,
+//        modifier = Modifier.fillMaxSize()
+//    ) {
+//        Column(
+//            horizontalAlignment = Alignment.CenterHorizontally
+//        ) {
 //
-//        contentAlignment = Alignment.Center
-//    ){
-//        Box(
-//            modifier = Modifier.background(Color.Cyan).width(300.dp).height(200.dp),
-//            contentAlignment = Alignment.BottomCenter
-//            ){
-//                Text("Hola esto es un ejemplo del box")
+//            Surface(
+//                color = Color.Green,
+//                modifier = Modifier.height(80.dp).width(60.dp),
+//
+//            ) {
+//                Text("Layout 1")
 //            }
+//            Surface(
+//                color = Color.Gray,
+//                modifier = Modifier.height(300.dp).width(60.dp)
+//            ) {
+//                Text("Layout 2")
+//            }
+//            Surface(
+//                color = Color.Green,
+//                modifier = Modifier.height(300.dp).width(60.dp),
+//
+//                ) {
+//                Text("Layout 3")
+//            }
+//            Surface(
+//                color = Color.Gray,
+//                modifier = Modifier.height(80.dp).width(60.dp)
+//            ) {
+//                Text("Layout 4")
+//            }
+//        }
 //    }
-//
-//
 //}
-//
 //fun main() = application {
 //
 //    val windowState = rememberWindowState(size = DpSize(1200.dp,800.dp))
